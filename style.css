@@ -1,0 +1,1058 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 4px, solid red;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.btn-whats {
+  position: fixed;
+  bottom: 62px;
+  right: 72px;
+  z-index: 99999999;
+}
+
+.btn {
+  background-color: #ac2121;
+  border-radius: 10px;
+}
+
+.navbar {
+  background-color: #eeeded;
+
+  background-size: cover;
+  min-width: 360px;
+}
+
+.navbar .btn {
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 50px;
+  margin-right: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #030303;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  transition: width 2s;
+}
+
+a.navbar-brand {
+  margin-left: 11%;
+}
+
+/*SEÇÃO 1 ******************************************/
+
+.secao1 {
+  background-image: url("img/s1-nexus-logistica.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 1070px !important;
+}
+.structure1 {
+  padding: 9% 19%;
+  width: 100%;
+}
+.secao1 h4 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 20%;
+}
+
+.secao1 p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 1%;
+}
+
+.secao1 a {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 10px 30px;
+}
+
+/*SEÇÃO 2 ******************************************/
+
+.secao2 {
+  background-image: url("img/s2-nexus-logistica.jpg");
+  background-size: cover;
+  background-position: center;
+  max-height: 990px !important;
+  padding: 0% 15% 8% 15%;
+}
+.secao2-2 {
+  display: none;
+}
+
+.s2img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.secao2 h2 {
+  color: #a22430;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 500;
+  width: 50%;
+  margin: 94px auto 109px;
+}
+
+.secao2 h4,
+p {
+  color: #808080;
+}
+
+.secao2 h4 {
+  font-size: 27px;
+  font-weight: 800;
+}
+
+.secao2 p {
+  font-size: 17px;
+  font-weight: 500;
+  width: 306px;
+}
+
+.costado {
+  position: absolute;
+  left: 70%;
+}
+
+.galpao {
+  position: absolute;
+  left: 220%;
+}
+
+.patio {
+  position: absolute;
+  left: 58%;
+  bottom: 0%;
+  text-align: right;
+}
+
+.expedicao {
+  position: absolute;
+  left: 290%;
+  bottom: -24px;
+  text-align: right;
+}
+
+/*SEÇÃO 3 ******************************************/
+
+.secao3 {
+  background-image: url(img/s3-nexus-logistica.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  max-height: 990px;
+  padding: 9% 18%;
+}
+
+.secao3 h4 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 20%;
+}
+
+.secao3 p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+/*SEÇÃO 4 ******************************************/
+
+.secao4 {
+  background-image: url(img/s4-nexus-logistica.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 945px !important;
+  width: 100%;
+  padding: 5% 20% 9% 19%;
+}
+
+.secao4 h4 {
+  margin-top: 10%;
+  color: #a22430;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.secao4 p {
+  margin-top: 8%;
+  color: #808080;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.s4img {
+  width: 100%;
+  height: auto;
+  text-align: right;
+}
+
+/*SEÇÃO 5 ******************************************/
+
+.secao5 {
+  background-image: url("img/s5-nexus-logistica.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 790px !important;
+  width: 100%;
+  position: relative;
+  padding: 0% 15% 0% 0%;
+}
+
+.secao5 h2 {
+  font-size: 60px;
+  font-weight: 700;
+  padding: 20% 0% 1% 0;
+}
+
+.secao5 p {
+  font-size: 21px;
+  font-weight: 600;
+  color: #fff;
+  padding: 0 0% 8% 32%;
+}
+
+/**Map**/
+.portDots {
+  display: flex;
+  width: 675px;
+  position: relative;
+}
+
+/*Slider***************/
+.secao5 img {
+  border-radius: 10px;
+}
+
+.single-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+h5 {
+  /*Texto mapa**/
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.suape {
+  position: absolute;
+  left: 78%;
+  top: 31%;
+  text-shadow: 2px 1px 3px #fffdf6;
+  padding-left: 26px;
+  z-index: 4;
+}
+
+.vitoria {
+  position: absolute;
+  left: 74%;
+  top: 40.5%;
+  text-shadow: 2px 1px 3px #fffdf6;
+  padding-left: 26px;
+  z-index: 4;
+}
+
+.santos {
+  position: absolute;
+  left: 74%;
+  top: 46.5%;
+  text-shadow: 2px 1px 3px #fffdf6;
+  padding-left: 26px;
+}
+
+.paranagua {
+  position: absolute;
+  left: 67%;
+  bottom: 44.5%;
+  text-shadow: 2px 1px 3px #fffdf6;
+  padding-left: 26px;
+}
+
+.itajai {
+  position: absolute;
+  left: 64%;
+  bottom: 41%;
+  text-shadow: 2px 1px 3px #fffdf6;
+  padding-left: 26px;
+}
+
+.riogrande {
+  position: absolute;
+  left: 61%;
+  bottom: 35%;
+  text-shadow: 2px 1px 3px #fffdf6;
+  padding-left: 26px;
+}
+
+.img-text p {
+  /*Legenda Slider**/
+  font-size: 15px;
+  font-weight: 500;
+
+  padding: 2% 0% 1% 0;
+}
+
+/*indicadores carrossel*/
+.carousel-indicators {
+  margin-left: 88%;
+  margin-bottom: 0%;
+  margin-right: 0px;
+  right: -9px;
+}
+.carousel-indicators li {
+  background: #808080;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  visibility: hidden;
+}
+
+/*SEÇÃO 6 ****************************/
+
+.secao6 {
+  min-height: 460px !important;
+  width: 100%;
+  background: #f0ecec;
+  color: #a22430;
+  text-align: center;
+  padding: 10% 25%;
+}
+
+.secao6 h4 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.secao6 a {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 15px 30px;
+}
+
+/*RODAPÉ ******************************************/
+
+footer {
+  background-color: #a22430;
+  padding: 80px;
+}
+
+#logoBranco {
+  max-width: 120px;
+  max-height: 150px;
+}
+
+#logoBranco + p {
+  font-size: 10px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.social {
+  justify-content: right;
+  margin-right: 220px;
+  margin-top: 20px;
+}
+
+.social a {
+  color: #fff;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+@media (min-width: 1961px) and (max-width: 2560px) {
+  .secao2 h2 {
+    margin: 56px auto 62px;
+  }
+  .s2img {
+    margin-top: -4%;
+  }
+  .secao4 {
+    padding: 2% 20% 5% 19%;
+  }
+  .costado {
+    top: 40px;
+  }
+  .galpao {
+    top: 40px;
+  }
+  .patio {
+    left: 90%;
+  }
+  .expedicao {
+    left: 310%;
+  }
+
+  .secao3 p {
+    font-size: 23px;
+    margin-left: 21%;
+  }
+
+  .secao4 h4 {
+    font-size: 62px;
+  }
+
+  .secao4 p {
+    font-size: 21px;
+  }
+
+  .secao5 {
+    padding: 0% 15% 0% 10%;
+  }
+  .secao5 h2 {
+    font-size: 56px;
+    padding: 12% 0% 1% 0;
+  }
+  .secao5 p {
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 1199px) and (max-width: 1620.98px) {
+  .structure1 {
+    padding: 8% 19%;
+    width: 100%;
+  }
+  .secao1 {
+    min-height: 650px !important;
+    max-height: 650px !important;
+  }
+  .secao1 h4 {
+    margin-top: 4%;
+    font-size: 54px;
+  }
+  .secao2 {
+    height: 581px;
+  }
+  .secao2 .img-fluid {
+    margin-top: -57px;
+  }
+  .secao2 h2 {
+    width: 61%;
+    font-size: 38px;
+    margin: 45px auto 46px;
+  }
+
+  .secao2 h4 {
+    font-size: 23px;
+  }
+
+  .secao2 p {
+    font-size: 15px;
+  }
+
+  .costado {
+    left: 76%;
+    top: -1352%;
+  }
+  .galpao {
+    left: 222%;
+    top: -1100%;
+  }
+  .patio {
+    left: 8%;
+    bottom: 456%;
+  }
+  .expedicao {
+    left: 235%;
+    bottom: -1100%;
+  }
+
+  .secao3 {
+    padding: 9% 15%;
+    max-height: 583px;
+  }
+
+  .secao3 h4 {
+    font-size: 50px;
+    margin-top: 12%;
+  }
+
+  .secao3 p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+  .secao4 {
+    min-height: 581px !important;
+    max-height: 581px;
+    padding: 0% 20% 9% 19%;
+  }
+  .secao4 h4 {
+    font-size: 50px;
+    margin-top: 7%;
+  }
+  .s4img {
+    margin-top: -77px;
+  }
+  .secao5 {
+    padding: 0% 11% 0% 0%;
+    min-height: 581px !important;
+    max-height: 581px;
+  }
+
+  .secao5 h2 {
+    font-size: 46px;
+    padding: 12% 0% 1% 0;
+  }
+
+  .secao5 p {
+    font-size: 16px;
+    padding: 0 0% 8% 28%;
+  }
+  .carousel-indicators {
+    margin-left: 84%;
+    margin-bottom: 8%;
+  }
+
+  .portDots {
+    margin-left: -11%;
+  }
+  .secao6 {
+    padding: 8% 25%;
+  }
+}
+
+/* I PAD PRO***********************************/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .secao2 {
+    min-height: 737px;
+  }
+
+  .secao2 h2 {
+    font-size: 37px;
+    width: 70%;
+    margin: 70px auto 73px;
+  }
+
+  .costado {
+    position: absolute;
+    left: 70%;
+  }
+
+  .galpao {
+    position: absolute;
+    left: 220%;
+  }
+
+  .patio {
+    position: absolute;
+    left: -30%;
+    top: 1%;
+  }
+
+  .expedicao {
+    position: absolute;
+    left: 190%;
+    top: 1%;
+  }
+
+  .secao3 {
+    height: 90%;
+    min-height: 600px;
+    padding: 9% 16%;
+  }
+
+  .secao3 h4 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 20%;
+  }
+
+  .secao3 p {
+    font-size: 15px;
+  }
+  .secao4 h4 {
+    margin-top: 20%;
+    font-size: 45px;
+  }
+
+  .secao4 p {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 130%;
+  }
+
+  .secao5 {
+    padding: 0% 6% 0% 0%;
+  }
+
+  .secao5 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 30% 0% 1% 0;
+    margin-left: -10%;
+  }
+
+  .texto5 p {
+    padding: 0 0% 15% 4%;
+  }
+  .portDots {
+    margin-left: -40%;
+  }
+
+  .secao5 img {
+    border-radius: 10px;
+    width: 108%;
+  }
+
+  .img-area {
+    padding: 3% 8% 0 0;
+  }
+
+  .img-text p {
+    padding: 2% 0% 1% 0;
+  }
+
+  .carousel-indicators {
+    margin-left: 76%;
+    margin-bottom: 0%;
+  }
+}
+
+/* I PAD **********************************/
+
+@media (max-width: 991.98px) {
+  .navbar .btn {
+    margin: 0 13px;
+  }
+  .structure1 {
+    padding: 21% 19%;
+  }
+  .secao1 {
+    min-height: 983px !important;
+  }
+  .secao2 {
+    min-height: 745px !important;
+  }
+
+  .secao2 h2 {
+    font-size: 34px;
+    width: auto;
+  }
+
+  .secao2 h4 {
+    font-size: 18px;
+  }
+
+  .secao2 p {
+    font-size: 15px;
+  }
+  .costado {
+    position: absolute;
+    left: -20%;
+  }
+
+  .galpao {
+    position: absolute;
+    left: 220%;
+  }
+
+  .patio {
+    position: absolute;
+    left: -30%;
+    top: 1%;
+  }
+
+  .expedicao {
+    position: absolute;
+    left: 190%;
+    top: 1%;
+  }
+
+  .secao3 {
+    height: 90%;
+    min-height: 500px;
+  }
+  .secao3 h4 {
+    font-size: 38px;
+    margin-top: 55px;
+  }
+
+  .secao3 p {
+    font-size: 15px;
+    font-style: 500;
+  }
+  .secao4 {
+    background-position: 60% 50%;
+    min-height: 913px !important;
+  }
+
+  .secao4 h4 {
+    font-size: 48px;
+    margin-top: 20%;
+  }
+
+  .secao4 p {
+    margin-top: 8%;
+    width: 168%;
+    margin-bottom: 20%;
+  }
+
+  .secao5 {
+    background-position: right center;
+  }
+
+  .secao5 > .col-md-6 {
+    max-width: 100%;
+    padding-left: 24%;
+  }
+  .s5col1 {
+    display: none;
+  }
+
+  .secao5 h2 {
+    margin: 1% -10% 0% -20%;
+    font-size: 47px;
+  }
+
+  h5 {
+    display: none;
+  }
+
+  .texto5 p {
+    font-size: 20px;
+    text-align: center;
+    padding: 5% 0 7% 0;
+  }
+
+  .img-area {
+    padding-right: 20%;
+  }
+
+  .img-text p {
+    padding: 2% 1% 1% 0;
+  }
+
+  .carousel-indicators {
+    margin-left: 80%;
+    margin-bottom: 0%;
+  }
+
+  .carousel-indicators li {
+    margin-inline: 1%;
+  }
+
+  .secao5 .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    visibility: visible;
+    top: 100px;
+  }
+  .portDots {
+    display: none;
+  }
+
+  .col-md-4 {
+    max-width: 14%;
+  }
+
+  .secao6 h4 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+
+/* MOBILE***********************************************/
+
+@media (max-width: 767.98px) {
+  body {
+    min-width: 360px;
+  }
+
+  .navbar-nav {
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .navbar .btn {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 40px;
+    margin-top: 40px;
+    margin-left: 22px;
+    text-transform: capitalize;
+  }
+
+  .btn-whats {
+    right: 0px;
+  }
+
+  .structure1 {
+    padding: 8% 19% 9% 19%;
+    width: 100%;
+    text-align: center;
+    min-height: 805px;
+  }
+  .secao1 {
+    background-image: url(img/mobile-s1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 360px;
+    min-height: 692px !important;
+    text-align: center;
+  }
+
+  .secao1 h4 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .secao1 p {
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 500;
+  }
+
+  .secao1 a {
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 15px 25px;
+  }
+  .secao2 {
+    display: none;
+  }
+  .secao2-2 {
+    display: block;
+  }
+  .serviceDescription {
+    padding: 5% 5% 0 5%;
+  }
+  .serviceDescription > div {
+    padding: 12% 5%;
+  }
+  .secao2-2 h2 {
+    color: #a22430;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    margin: 22% 13% 7% 13%;
+    font-weight: bolder;
+  }
+  .secao2-2 h4,
+  p {
+    color: #808080;
+  }
+
+  .secao2-2 h4 {
+    font-size: 33px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 5%;
+    color: #505050;
+  }
+
+  .secao2-2 p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .costado_img,
+  .patio_img,
+  .expedicao_img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+  .galpao_img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .secao3 {
+    background-image: url(img/mobile-s3.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    min-height: 705px !important;
+  }
+  .text-width {
+    width: 100%;
+  }
+  .secao3 h4 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-left: -8px;
+    margin-top: 35px;
+  }
+
+  .secao3 p {
+    text-align: center;
+    font-size: 17px;
+    font-style: 500;
+    margin-left: -8px;
+  }
+
+  .secao4 {
+    background-image: url(img/mobile-s4.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 705px !important;
+    text-align: center;
+    padding: 12% 15%;
+  }
+
+  .secao4 h4 {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: -8px;
+  }
+
+  .secao4 p {
+    margin-top: 15%;
+    font-style: normal;
+    width: auto;
+  }
+  .s4img {
+    display: none;
+  }
+
+  .secao5 {
+    background-image: url(img/mobile-s5.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 360px;
+    min-height: 705px !important;
+    padding: 13%;
+  }
+
+  .secao5 h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20%;
+    padding: 0;
+  }
+
+  .secao5 p {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20%;
+    margin-bottom: 15%;
+    padding: 0;
+  }
+
+  .secao5 img {
+    width: 100%;
+    margin-left: 10%;
+  }
+
+  .secao5 .col-md-12 {
+    padding: 0;
+  }
+
+  .secao5 > .col-md-6 {
+    padding-left: 12%;
+  }
+
+  .carousel-indicators {
+    margin-left: 2%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+  }
+
+  .carousel-indicators li {
+    margin-inline: 2%;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    visibility: visible;
+    padding: 20%;
+    margin-bottom: 130px;
+  }
+  .carousel-control-prev-icon {
+    margin-right: 90px;
+  }
+  .carousel-control-next-icon {
+    margin-left: 90px;
+  }
+
+  .portDots {
+    display: none;
+  }
+
+  .secao6 {
+    min-width: 360px;
+    min-height: 560px;
+  }
+
+  .secao6 h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20%;
+  }
+
+  .secao6 a {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+
+  footer {
+    background-size: cover;
+    min-width: 360px;
+  }
+
+  .social {
+    margin-top: 60px;
+    margin-right: 100px;
+  }
+}
